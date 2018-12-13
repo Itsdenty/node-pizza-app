@@ -43,7 +43,7 @@ An api only app using raw node, that allow users to place pizza orders from spec
       <td>login the user and returns their token post params email and password</td>
   </tr> 
   <tr>
-      <td>GETi</td>
+      <td>GET</td>
       <td>/tokens</td>
       <td>logout the user by destroying the token</td>
   </tr> 
