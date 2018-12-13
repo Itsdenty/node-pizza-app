@@ -28,7 +28,7 @@ An api only app using raw node, that allow users to place pizza orders from spec
 * A user can modify cart content via the carts put endpoint
 * A user can check his current cart content via the carts get endpoint
 * A user can empty his cart via the carts delete endpoint
-* Drivers can either accept or reject a ride request.
+* A user can place his pizza order via the order endpoint
 
 ## Available APIs
 <table>
