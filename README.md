@@ -13,7 +13,7 @@ An api only app using raw node, that allow users to place pizza orders from spec
 
 ## Installation.
   * Install [Nodejs](https://nodejs.org/en/download/)
-  * Clone this repo ``` git clone https://github.com/itsdenty/andela-vlf-challenge.git ```
+  * Clone this repo ``` git clone https://github.com/itsdenty/node-pizza-app.git ```
   * Run ```node index.js``` to initiate server
   * Modify lib/config.js to provision mailgun api key
 
@@ -37,6 +37,16 @@ An api only app using raw node, that allow users to place pizza orders from spec
       <th>API ENDPOINT/PATH</th>
       <th>ACTION</th>
   </tr>
+  <tr>
+      <td>POST</td>
+      <td>/tokens</td>
+      <td>login the user and returns their token post params email and password</td>
+  </tr> 
+  <tr>
+      <td>GETi</td>
+      <td>/tokens</td>
+      <td>logout the user by destroying the token</td>
+  </tr> 
   <tr>
       <td>GET</td>
       <td>/users</td>
