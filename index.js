@@ -11,8 +11,6 @@ const app = {};
 app.init = () => {
   // Start the server 
   server.init();
-  // Start the workers
-  // workers.init();
 };
 
 // Execute
